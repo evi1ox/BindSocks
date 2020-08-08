@@ -2,8 +2,8 @@
 
 通常网络出口只有一个web的情况下, 除了上传 webshell 做 socks 代理, 我们还可以端口复用
 
-- 必须满足的 -listen , -http 监听端口使用, 其他参数任意
-- -socks参数会创建一个本地监听的socks端口, 然后转发到8888端口上面, 所以无需再建socks
+- 必须满足的 -listen , -http 端口使用, 其他参数任意
+- -socks参数会创建一个本地监听的socks端口, 然后转发到-listen端口上面, 所以无需再建socks
 - 不支持连接建立之后服务器主动握手的协议，例如VNC，FTP，MYSQL…。
 - SSH无法连接请更换连接工具
 - **适用于 windows**, linux平台需要使用到 iptables做转发
