@@ -6,7 +6,7 @@
 - -socks参数会创建一个本地监听的socks端口, 然后转发到-listen端口上面, 所以无需再建socks
 - 不支持连接建立之后服务器主动握手的协议，例如VNC，FTP，MYSQL…。
 - SSH无法连接请更换连接工具
-- **适用于 windows**, linux平台需要使用到 iptables做转发
+- **适用于 windows**
     - 测试系统 windows2012
     - 宝塔 && phpstudy都成功了 , 其他师傅自己尝试吧
 
